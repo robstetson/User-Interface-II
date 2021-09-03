@@ -48,11 +48,81 @@ table {
 *{
     box-sizing:border-box;
     max-width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 body{
     font-family: 'Oxygen', sans-serif;  
     line-height: 1;
     font-size: 1.5rem;
+	background-color: grey;
+}
+
+nav{
+	margin: 1rem;
+
+}
+
+.heading h2{
+	margin: .5rem;
+
+}
+.bigpic{
+	display: flex;
+	justify-content: center;
+
+}
+.bigpic img{
+	display: flex;
+	margin-left: .2rem;
+	margin-right: .2rem;
+	justify-content: center;
+}
+.topsect{
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: flex-end;
+	justify-content: space-around;
+
+}
+
+.picgrid1{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	margin: 1rem;
+}
+
+.picgrid2{
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+	justify-content: space-between;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-direction: column;
+
+}
+footer p{
+	display: flex;
+	justify-content: center;
+	margin: 1.5rem ;
+}
+
+footer a{
+	display: flex;
+	justify-content: center;
+	margin: 1.5rem;
+
+
+}
+
+h3{
+	display: flex;
+	justify-content: center;
 }
