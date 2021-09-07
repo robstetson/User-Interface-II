@@ -61,6 +61,7 @@ body{
 nav{
 	margin: 1rem;
 
+
 }
 
 .heading h2{
@@ -69,7 +70,7 @@ nav{
 }
 .bigpic{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 
 }
 .bigpic img{
@@ -84,6 +85,7 @@ nav{
 	flex-direction: column;
 	justify-content: flex-end;
 	justify-content: space-around;
+	margin-left: 3rem;
 
 }
 
@@ -92,6 +94,8 @@ nav{
 	justify-content: center;
 	justify-content: space-between;
 	margin: 1rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 .picgrid2{
@@ -99,6 +103,8 @@ nav{
 	justify-content: center;
 	margin: 1rem;
 	justify-content: space-between;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
 
 footer{
@@ -125,4 +131,54 @@ footer a{
 h3{
 	display: flex;
 	justify-content: center;
+}
+
+@media(max-width:800px){ 
+body{
+	max-width:65vh;
+}
+	nav{
+	display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.bigpic{
+	display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+	
+}
+p{
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+
+}
+h2{
+	display: flex;
+	padding: .5rem;
+	justify-content: center;
+
+}
+.picgrid1{
+	display: flex;
+
+}
+.topsect{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+}
+
+@media(max-width: 500px){
+
+body{
+	max-width: 40vh;
+}
+
 }
