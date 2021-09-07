@@ -1,1 +1,185 @@
 /* Add CSS styling here */
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    max-width: 100%;
+    /* border: 2px solid red; */
+
+}
+body{
+    font-family: 'Oxygen', sans-serif;  
+    line-height: 1;
+    font-size: 1.5rem;
+	background-color: grey;
+}
+
+nav{
+	margin: 1rem;
+
+
+}
+
+.heading h2{
+	margin: .5rem;
+
+}
+.bigpic{
+	display: flex;
+	justify-content: flex-start;
+
+}
+.bigpic img{
+	display: flex;
+	margin-left: .2rem;
+	margin-right: .2rem;
+	justify-content: center;
+}
+.topsect{
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: flex-end;
+	justify-content: space-around;
+	margin-left: 3rem;
+
+}
+
+.picgrid1{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	margin: 1rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.picgrid2{
+	display: flex;
+	justify-content: center;
+	margin: 1rem;
+	justify-content: space-between;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	flex-direction: column;
+
+}
+footer p{
+	display: flex;
+	justify-content: center;
+	margin: 1.5rem ;
+}
+
+footer a{
+	display: flex;
+	justify-content: center;
+	margin: 1.5rem;
+
+
+}
+
+h3{
+	display: flex;
+	justify-content: center;
+}
+
+@media(max-width:800px){ 
+body{
+	max-width:65vh;
+}
+	nav{
+	display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.bigpic{
+	display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+	
+}
+p{
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+
+}
+h2{
+	display: flex;
+	padding: .5rem;
+	justify-content: center;
+
+}
+.picgrid1{
+	display: flex;
+
+}
+.topsect{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+}
+
+@media(max-width: 500px){
+
+body{
+	max-width: 40vh;
+}
+
+}
+/* trying to just savee..  */
